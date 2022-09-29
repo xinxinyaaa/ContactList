@@ -8,7 +8,7 @@ android {
     buildToolsVersion "33.0.0"
 
     defaultConfig {
-        applicationId "com.example.contactlist"
+        applicationId "com.contactlist.android"
         minSdkVersion 29
         targetSdkVersion 33
         versionCode 1
