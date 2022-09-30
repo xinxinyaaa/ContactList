@@ -31,7 +31,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b6ed3d8-2a8d-4b80-8de2-bbaf0d2d3c81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/ContactList.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/ContactList.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +62,8 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
-        <option value="Kotlin Object" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -191,5 +204,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1664438926805" />
+    <state x="291" y="102" key="Vcs.Push.Dialog.v2" timestamp="1664505577422">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="291" y="102" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1664505577422" />
   </component>
 </project>
