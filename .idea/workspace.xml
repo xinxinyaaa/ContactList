@@ -5,6 +5,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -31,20 +34,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b6ed3d8-2a8d-4b80-8de2-bbaf0d2d3c81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/uliuj620.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_4_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_4_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/Repository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_list.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/ContactList.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/ContactList.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ContactListNetwork.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ContactListNetwork.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/NetworkList/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/NetworkList/NetworkActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/NetworkList/NetworkViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/NetworkList/Person.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/NetworkList/mobileFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/NetworkList/networkFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ServiceCreator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ServiceCreator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/Net/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/Net/activity_network.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/Net/bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/Net/fragment_mobile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/Net/fragment_network.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +83,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Object" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -84,11 +108,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2.Software\NJ-OUT-JLI\AndroidStudioProject\ContactList\app\src\main\res\drawable" />
+      <recent name="D:\2.Software\NJ-OUT-JLI\AndroidStudioProject\ContactList\app\src\main\res\layout\Net" />
+      <recent name="D:\2.Software\NJ-OUT-JLI\AndroidStudioProject\ContactList\app\src\main\java\com\contactlist\android\NetworkList" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -191,6 +222,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -200,10 +232,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="198" y="127" key="#PSD/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1664438949700" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1664438926805">
+    <state x="537" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1665731845817">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1664438926805" />
+    <state x="537" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1665731845817" />
+    <state width="1530" height="155" key="GridCell.Tab.0.bottom" timestamp="1665648098677">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1530" height="155" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1665648098677" />
+    <state width="1530" height="155" key="GridCell.Tab.0.center" timestamp="1665648098677">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1530" height="155" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1665648098677" />
+    <state width="1530" height="155" key="GridCell.Tab.0.left" timestamp="1665648098677">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1530" height="155" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1665648098677" />
+    <state width="1530" height="155" key="GridCell.Tab.0.right" timestamp="1665648098677">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1530" height="155" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1665648098677" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1665983696973">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1665983696972" />
     <state x="291" y="102" key="Vcs.Push.Dialog.v2" timestamp="1664505577422">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
