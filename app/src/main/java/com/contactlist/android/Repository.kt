@@ -3,7 +3,7 @@ package com.contactlist.android
 import kotlinx.coroutines.Dispatchers
 
 object Repository {
-    fun getListData() = liveData(Dispatchers.IO){
+    fun getListData(query: String) = liveData(Dispatchers.IO){
         val result = try {
             val listResponse = ContactListNetwork.getListData()
             if (listResponse.id == "ok"){

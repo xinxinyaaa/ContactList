@@ -10,7 +10,7 @@ import kotlin.coroutines.suspendCoroutine
 
 object ContactListNetwork {
     private val listService = ServiceCreator.create<ListService>()
-    suspend fun getListData() = listService.getListData().await()
+    suspend fun getListData(query: String) = listService.getListData(query).await()
     private suspend fun <T> Call<T>.await():T{
         return suspendCoroutine { continuation ->
             enqueue(object :Callback<T>{

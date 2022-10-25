@@ -8,11 +8,12 @@ import android.widget.EditText
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.contactlist.android.databinding.FragmentListBinding
 
 class ListFragment : Fragment() {
     val viewModel by lazy { ViewModelProvider(this).get(ListViewModel::class.java) }
     private lateinit var adapter: ListAdapter
-    //private lateinit var binding : FragmentListBinding
+    private lateinit var binding : FragmentListBinding
 
 
     override fun onCreateView(
@@ -25,12 +26,15 @@ class ListFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+        binding = FragmentListBinding.inflate(layoutInflater)
 
-        val search: EditText = findViewById(R.id.search)
+
+       //val search: EditText = findViewById(R.id.search)
         val layoutManager = LinearLayoutManager(activity)
-        recyclerView.layoutManager = layoutManager
+        binding.recyclerView.layoutManager = layoutManager
         adapter = ListAdapter(this, viewModel.contactList)
-        recyclerView.adapter = adapter
+        binding.recyclerView.adapter = adapter
+
     }
 
 
