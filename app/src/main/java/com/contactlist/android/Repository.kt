@@ -1,9 +1,10 @@
 package com.contactlist.android
 
+import androidx.lifecycle.LiveData
 import kotlinx.coroutines.Dispatchers
 
 object Repository {
-    fun getListData(query: String) = liveData(Dispatchers.IO){
+    /*fun getListData() = liveData(Dispatchers.IO){
         val result = try {
             val listResponse = ContactListNetwork.getListData()
             if (listResponse.id == "ok"){
@@ -16,5 +17,11 @@ object Repository {
             Result.failure<List<ListResponse>>(e)
         }
         emit(result)
+    }*/
+    fun getListData():LiveData<ListResponse>{
+        val result = try {
+            val listResponse = ContactListNetwork.getListData()
+            if ()
+        }
     }
 }

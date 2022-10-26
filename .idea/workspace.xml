@@ -34,19 +34,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b6ed3d8-2a8d-4b80-8de2-bbaf0d2d3c81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/Fragment/mobileFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/Fragment/networkFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/mobileFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mobile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_network.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ContactListNetwork.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ContactListNetwork.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/Repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/Repository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
