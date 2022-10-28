@@ -34,11 +34,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b6ed3d8-2a8d-4b80-8de2-bbaf0d2d3c81" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ContactListNetwork.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ContactListNetwork.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/Fragment/mobileFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/Fragment/networkFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/networkFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/ListViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/Repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/Repository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/mobileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/mobileFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +97,9 @@
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.contactlist.android.Fragment" />
+      <recent name="com.contactlist.android" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.contactlist.android" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -212,6 +224,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="537" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1665731845817" />
+    <state x="464" y="122" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1666862536105">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="464" y="122" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1666862536105" />
+    <state x="525" y="172" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1666862642875">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="525" y="172" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1666862642875" />
     <state x="596" y="179" key="AndroidCreateXmlResourceDialog" timestamp="1666689115305">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

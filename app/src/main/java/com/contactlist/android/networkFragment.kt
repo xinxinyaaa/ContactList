@@ -1,4 +1,4 @@
-package com.contactlist.android.Fragment
+package com.contactlist.android
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,13 +7,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.contactlist.android.R
 
-public class mobileFragment : Fragment(){
+public class networkFragment: Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_mobile,container,false)
+        return inflater.inflate(R.layout.fragment_network,container,false)
         //return super.onCreateView(inflater, container, savedInstanceState)
     }
 }

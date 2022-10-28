@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 
 class ListViewModel : ViewModel(){
     //private val contactLiveData = MutableLiveData<String>()
-    private val contactLiveData = MutableLiveData<ListResponse>()
+    //private val contactLiveData = MutableLiveData<ListResponse>()
     val contactList = ArrayList<ListResponse>()
     /*val contactLiveData = Transformations.switchMap(searchLiveData){
         query -> Repository

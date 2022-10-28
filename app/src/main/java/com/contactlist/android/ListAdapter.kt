@@ -3,6 +3,7 @@ package com.contactlist.android
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
@@ -29,3 +30,13 @@ class ListAdapter(private val fragment: Fragment,private val contactList: List<L
     override fun getItemCount() = contactList.size
 
 }
+/*
+class ListAdapter (private val fragment: Fragment,private val resourceId: Int):ArrayAdapter<ListResponse>(fragment,resourceId){
+    override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+        //return super.getView(position, convertView, parent)
+        val view: View
+        if (convertView == null){
+            view = LayoutInflater.from(context).inflate(contactList,parent,false)
+        }else
+    }
+}*/

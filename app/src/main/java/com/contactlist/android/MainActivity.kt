@@ -1,6 +1,5 @@
 package com.contactlist.android
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
@@ -8,7 +7,6 @@ import android.widget.LinearLayout
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
-import com.contactlist.android.Fragment.networkFragment
 import com.contactlist.android.databinding.ActivityMainBinding
 
 class MainActivity : FragmentActivity(),View.OnClickListener {

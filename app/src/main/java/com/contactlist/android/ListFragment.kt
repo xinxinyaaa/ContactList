@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.contactlist.android.databinding.FragmentListBinding
@@ -35,7 +36,11 @@ class ListFragment : Fragment() {
         adapter = ListAdapter(this, viewModel.contactList)
         binding.recyclerView.adapter = adapter
 
+        viewModel.contactList.observe(this,Observer{result ->
+
+        })
+
     }
 
 
-}
+}*/
