@@ -6,7 +6,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlin.coroutines.CoroutineContext
 
 object Repository {
-    /*fun getListData() = fire(Dispatchers.IO){
+    fun getListData() = fire(Dispatchers.IO){
         val listResponse = ContactListNetwork.getListData()
         if (listResponse.id == "ok"){
             val full = listResponse.name
@@ -24,6 +24,6 @@ object Repository {
             Result.failure<List<ListResponse>>(e)
         }
         emit(result)
-    }*/
+    }
 
 }
