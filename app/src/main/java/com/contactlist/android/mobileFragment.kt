@@ -21,7 +21,6 @@ public class mobileFragment : Fragment(){
         savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragment_mobile,container,false)
-        //return super.onCreateView(inflater, container, savedInstanceState)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
@@ -35,9 +34,9 @@ public class mobileFragment : Fragment(){
         adapter = ListAdapter(this, viewModel.contactList)
         binding.recyclerView.adapter = adapter
 
-        viewModel.contactList.observe(this, Observer{ result ->
+        /*viewModel.contactList.observe(this, Observer{ result ->
 
-        })
+        })*/
 
     }
 }

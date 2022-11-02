@@ -1,3 +1,6 @@
 package com.contactlist.android
 
-class ListResponse(val id: String, val full_name: String,val followers: Int)
+import com.google.gson.annotations.SerializedName
+
+data class ListResponse(val id: String,
+                        @SerializedName("full_name") val name: String, val followers: Int)
