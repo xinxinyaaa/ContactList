@@ -13,7 +13,7 @@ class ListViewModel : ViewModel(){
 
 
     val contactList = ArrayList<ListResponse>()
-    /*val contactData = Transformations.switchMap(){
+    val contactData = Transformations.switchMap(){
          -> Repository
-    }*/
+    }
 }
