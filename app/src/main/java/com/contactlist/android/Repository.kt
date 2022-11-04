@@ -2,6 +2,7 @@ package com.contactlist.android
 
 import androidx.databinding.adapters.NumberPickerBindingAdapter.setValue
 import androidx.lifecycle.LiveData
+import androidx.lifecycle.liveData
 import kotlinx.coroutines.Dispatchers
 import kotlin.coroutines.CoroutineContext
 
@@ -21,7 +22,7 @@ object Repository {
         val result = try {
             block()
         }catch (e:Exception){
-            Result.failure<List<ListResponse>>(e)
+            Result.failure<T>(e)
         }
         emit(result)
     }

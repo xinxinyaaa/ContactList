@@ -6,14 +6,17 @@ import androidx.lifecycle.ViewModel
 
 class ListViewModel : ViewModel(){
     //private val contactLiveData = MutableLiveData<String>()
-    private val contactLiveData = MutableLiveData<ListResponse>()
+    val contactLiveData = MutableLiveData<ListResponse>()
     var id = ""
     var name = ""
     var followers = 0
 
 
     val contactList = ArrayList<ListResponse>()
-    val contactData = Transformations.switchMap(){
-         -> Repository
+    private fun initList(){
+        //contactList.add(ListResponse(id),)
     }
+    /*val contactData = Transformations.switchMap(){
+         -> Repository
+    }*/
 }

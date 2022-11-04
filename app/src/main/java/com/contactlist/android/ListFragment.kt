@@ -36,7 +36,7 @@ class ListFragment : Fragment() {
         adapter = ListAdapter(this, viewModel.contactList)
         binding.recyclerView.adapter = adapter
 
-        viewModel.contactList.observe(this,Observer{result ->
+        viewModel.contactLiveData.observe(viewLifecycleOwner,Observer{result ->
 
         })
 
