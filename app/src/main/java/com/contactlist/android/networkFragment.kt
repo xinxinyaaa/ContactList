@@ -74,7 +74,7 @@ public class networkFragment: Fragment() {
     private fun showResponse(response:String){
         runOnUiThread {
             //进行UI操作，显示结果在界面上
-            binding..text = response
+            binding.netrecyclerView.text = response
 
         }
 
