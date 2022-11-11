@@ -6,6 +6,7 @@ import androidx.lifecycle.liveData
 import kotlinx.coroutines.Dispatchers
 import kotlin.coroutines.CoroutineContext
 
+/*
 object Repository {
     fun getListData() = fire(Dispatchers.IO){
         val listResponse = ContactListNetwork.getListData()
@@ -27,4 +28,4 @@ object Repository {
         emit(result)
     }
 
-}
+}*/

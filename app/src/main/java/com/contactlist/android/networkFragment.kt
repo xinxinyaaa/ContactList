@@ -62,7 +62,7 @@ public class networkFragment: Fragment() {
                 if (responseData != null){
                     //showResponse(responseData)
                     //parseJSONWithJSONObject(responseData)
-                    parseJSONWithGSON(responseData)
+                    JSONtoList(responseData)
                 }
 
             }catch (e:Exception){
@@ -71,19 +71,20 @@ public class networkFragment: Fragment() {
         }
     }
 
-    private fun showResponse(response:String){
+    /*private fun showResponse(response:String){
         runOnUiThread {
             //进行UI操作，显示结果在界面上
             binding.netrecyclerView.text = response
 
         }
 
-    }
+    }*/
 
-    private fun parseJSONWithGSON(jsonData: String){
+    private fun JSONtoList(jsonData: String){
         val gson = Gson()
-        val typeOf = object : TypeToken<List<ListResponse>>(){}.type
+        val typeOf = object : TypeToken<ArrayList<ListResponse>>(){}.type
         val personList = gson.fromJson<List<ListResponse>>(jsonData, typeOf)
+        //personList = Gson().fromJson(jsonData,typeOf)
         for (person in personList){
             Log.d(TAG,"id is ${person.id}")
             Log.d(TAG,"full_name is ${person.name}")

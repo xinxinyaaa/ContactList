@@ -33,7 +33,23 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b6ed3d8-2a8d-4b80-8de2-bbaf0d2d3c81" name="Default Changelist" comment="" />
+    <list default="true" id="3b6ed3d8-2a8d-4b80-8de2-bbaf0d2d3c81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/BaseFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/Item.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/ContactList.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/ContactList.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/Repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/Repository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/networkFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/contactlist/android/networkFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +120,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="ContactList.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -223,33 +239,37 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="596" y="179" key="AndroidCreateXmlResourceDialog/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1666689115305" />
-    <state width="1530" height="155" key="GridCell.Tab.0.bottom" timestamp="1665648098677">
+    <state width="1545" height="118" key="GridCell.Tab.0.bottom" timestamp="1668085012418">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1530" height="155" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1665648098677" />
-    <state width="1530" height="155" key="GridCell.Tab.0.center" timestamp="1665648098677">
+    <state width="1545" height="118" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1668085012418" />
+    <state width="1545" height="118" key="GridCell.Tab.0.center" timestamp="1668085012418">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1530" height="155" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1665648098677" />
-    <state width="1530" height="155" key="GridCell.Tab.0.left" timestamp="1665648098677">
+    <state width="1545" height="118" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1668085012418" />
+    <state width="1545" height="118" key="GridCell.Tab.0.left" timestamp="1668085012410">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1530" height="155" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1665648098677" />
-    <state width="1530" height="155" key="GridCell.Tab.0.right" timestamp="1665648098677">
+    <state width="1545" height="118" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1668085012410" />
+    <state width="1545" height="118" key="GridCell.Tab.0.right" timestamp="1668085012418">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1530" height="155" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1665648098677" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1667545660763">
+    <state width="1545" height="118" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1668085012418" />
+    <state x="403" y="86" key="RollbackChangesDialog" timestamp="1668147924417">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1667545660763" />
+    <state x="403" y="86" key="RollbackChangesDialog/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1668147924417" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1668148697250">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1668148697250" />
     <state x="291" y="102" key="Vcs.Push.Dialog.v2" timestamp="1664505577422">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="291" y="102" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1664505577422" />
-    <state x="744" y="122" width="755" height="650" key="find.popup" timestamp="1667545959678">
+    <state x="744" y="122" width="755" height="650" key="find.popup" timestamp="1668085479230">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="744" y="122" width="755" height="650" key="find.popup/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1667545959678" />
+    <state x="744" y="122" width="755" height="650" key="find.popup/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1668085479230" />
   </component>
 </project>
