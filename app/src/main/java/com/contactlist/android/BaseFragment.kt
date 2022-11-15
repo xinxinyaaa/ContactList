@@ -33,6 +33,9 @@ abstract class BaseFragment : Fragment(){
     protected fun initListeners() {
 
     }
+    /*protected fun showToast(msg: String) {
+        runOnUiThread { toast(msg) }
+    }*/
 
     protected abstract fun initView(): View?
 }

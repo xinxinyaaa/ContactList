@@ -4,7 +4,6 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
@@ -23,7 +22,7 @@ class ListAdapter(private val fragment: Fragment,private val contactList: List<L
         holder.itemView.setOnClickListener {
             val position = holder.adapterPosition
             val list = contactList[position]
-            val intent = Intent(parent.context,networkFragment::class.java).apply {
+            val intent = Intent(parent.context,NetworkFragment::class.java).apply {
                 putExtra("id",list.id)
                 putExtra("name",list.name)
                 putExtra("followers",list.followers)

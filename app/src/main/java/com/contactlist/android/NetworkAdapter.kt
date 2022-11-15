@@ -23,7 +23,7 @@ class NetworkAdapter(private val fragment: Fragment, private val contactList: Li
         holder.itemView.setOnClickListener {
             val position = holder.adapterPosition
             val list = contactList[position]
-            val intent = Intent(parent.context,networkFragment::class.java).apply {
+            val intent = Intent(parent.context,NetworkFragment::class.java).apply {
                 putExtra("id",list.id)
                 putExtra("name",list.name)
                 putExtra("followers",list.followers)

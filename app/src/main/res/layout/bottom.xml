@@ -4,12 +4,13 @@
     android:orientation="horizontal"
     android:baselineAligned="false"
     android:layout_width="match_parent"
-    android:layout_height="240dp">
+    android:layout_height="wrap_content"
+    android:id="@+id/bottom">
 
     <LinearLayout
         android:id="@+id/mobile"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
         android:orientation="vertical">
@@ -21,20 +22,20 @@
             android:background="#00FFFFFF"
             android:clickable="false"
             android:contentDescription="@string/app_name"
-            app:srcCompat="@drawable/mobile_contacts" />
+            app:srcCompat="@mipmap/mobile_contacts" />
 
         <TextView
             android:id="@+id/textView_mobile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="mobile" />
+            android:text="蓝牙" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/network"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
         android:orientation="vertical">
@@ -45,13 +46,13 @@
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
             android:clickable="false"
-            app:srcCompat="@drawable/network_contacts" />
+            app:srcCompat="@mipmap/network_contacts" />
 
         <TextView
             android:id="@+id/textView_network"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="network" />
+            android:text="网络" />
     </LinearLayout>
 </LinearLayout>

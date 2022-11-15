@@ -4,19 +4,23 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
 import android.widget.LinearLayout
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.contactlist.android.databinding.ActivityMainBinding
+import kotlinx.android.synthetic.main.bottom.*
 
-class MainActivity : FragmentActivity(),View.OnClickListener {
+class MainActivity : BaseActivity(),View.OnClickListener {
 
     private val TAG = "MainActivity"
 
-    private var mobileTabPage: mobileFragment? = null
-    private val networkTabPage: networkFragment? = null
+    //private lateinit var mobileTabPage: MobileFragment
+    private var mobileTabPage: MobileFragment? = null
+    //private  lateinit var networkTabPage: NetworkFragment
+    private var networkTabPage: NetworkFragment? = null
 
-    private var fragmentManager: FragmentManager? = null
+    private lateinit var fragmentManager: FragmentManager
     private lateinit var binding: ActivityMainBinding
 
 
@@ -30,21 +34,29 @@ class MainActivity : FragmentActivity(),View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        //setContentView(R.layout.activity_main)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         //initFragment()
         initView()
         initEvents()
+        //initListeners()
     }
+
+    override fun getLayoutId(): Int {
+        return R.layout.activity_main
+    }
+
 
     private fun initView(){
         mobileImageButton = findViewById(R.id.imageButton_mobile)
         networkImageButton = findViewById(R.id.imageButton_network)
         mobileTabButton = findViewById(R.id.mobile)
         networkTabButton = findViewById(R.id.network)
-        mobileImageButton.setImageResource(R.drawable.mobile_contacts)
-        networkImageButton.setImageResource(R.drawable.network_unpressed)
+
+        mobileImageButton.setImageResource(R.mipmap.mobile_contacts)
+        networkImageButton.setImageResource(R.mipmap.network_unpressed)
+
     }
 
     private fun initEvents(){
@@ -64,33 +76,46 @@ class MainActivity : FragmentActivity(),View.OnClickListener {
         }
     }
 
+
     private fun resetImg(){
-        mobileImageButton.setImageResource(R.drawable.mobile_unpressed)
+        mobileImageButton.setImageResource(R.mipmap.mobile_unpressed)
     }
-    private fun selectTab(i:Int){
+
+    private fun selectTab(it:Int){
         fragmentManager = supportFragmentManager
         val transaction = fragmentManager!!.beginTransaction()
         hideFragment(transaction)
-        when(i){
+        FragmentUtil.fragmentUtil.getFragment(it)?.let { it1 ->
+            transaction.replace(R.id.container,
+                    it1,it.toString())
+        }
+
+        when(it){
             0 -> {
-                mobileImageButton.setImageResource(R.drawable.mobile_contacts)
-                networkImageButton.setImageResource(R.drawable.network_unpressed)
+
+                mobileImageButton.setImageResource(R.mipmap.mobile_contacts)
+                networkImageButton.setImageResource(R.mipmap.network_unpressed)
+                binding.container.visibility = View.GONE
+
                 if (mobileTabPage == null){
-                    mobileTabPage = mobileFragment()
-                    transaction.add(R.id.content, mobileTabPage!!)
+                    mobileTabPage = MobileFragment()
+                    transaction.add(R.id.container, mobileTabPage!!)
                 }else{
                     transaction.show(mobileTabPage!!)
                 }
             }
             1 -> {
-                networkImageButton.setImageResource(R.drawable.network_contacts)
-                mobileImageButton.setImageResource(R.drawable.mobile_unpressed)
+                networkImageButton.setImageResource(R.mipmap.network_contacts)
+                mobileImageButton.setImageResource(R.mipmap.mobile_unpressed)
+                binding.container.visibility = View.GONE
+                //bgNetworkImage.visibility = View.VISIBLE
+                //bgMobileImage.visibility = View.GONE
                 if (networkTabPage == null){
-                    networkTabPage == networkFragment()
+                    networkTabPage == NetworkFragment()
 
 
                 }else{
-                    transaction.show(networkTabPage)
+                    transaction.show(networkTabPage!!)
                 }
             }
         }
@@ -101,11 +126,11 @@ class MainActivity : FragmentActivity(),View.OnClickListener {
         if (mobileTabPage != null){
             transaction.hide(mobileTabPage!!)
 
-            transaction.show(networkTabPage!!)
+            //transaction.show(networkTabPage!!)
         }
         if (networkTabPage != null){
             transaction.hide(networkTabPage!!)
-            transaction.show(mobileTabPage!!)
+            // transaction.show(mobileTabPage!!)
         }
     }
 }
