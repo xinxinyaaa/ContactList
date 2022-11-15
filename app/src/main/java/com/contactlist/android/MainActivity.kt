@@ -108,8 +108,6 @@ class MainActivity : BaseActivity(),View.OnClickListener {
                 networkImageButton.setImageResource(R.mipmap.network_contacts)
                 mobileImageButton.setImageResource(R.mipmap.mobile_unpressed)
                 binding.container.visibility = View.GONE
-                //bgNetworkImage.visibility = View.VISIBLE
-                //bgMobileImage.visibility = View.GONE
                 if (networkTabPage == null){
                     networkTabPage == NetworkFragment()
 
