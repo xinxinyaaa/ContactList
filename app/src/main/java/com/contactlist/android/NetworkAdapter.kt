@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class NetworkAdapter(private val fragment: Fragment, private val contactList: List<ListResponse>):
     RecyclerView.Adapter<NetworkAdapter.ViewHolder>() {
-    inner class ViewHolder(view: View): RecyclerView.ViewHolder(view){
+    class ViewHolder(view: View): RecyclerView.ViewHolder(view){
         val id : TextView = view.findViewById(R.id.id)
         val name: TextView = view.findViewById(R.id.name)
         val followers: TextView = view.findViewById(R.id.followers)

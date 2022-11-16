@@ -15,6 +15,7 @@ import com.contactlist.android.databinding.FragmentListBinding
 import com.contactlist.android.databinding.FragmentNetworkBinding
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import kotlinx.android.synthetic.main.fragment_list.*
 import kotlinx.android.synthetic.main.fragment_network.*
 import okhttp3.OkHttpClient
 import okhttp3.Request
@@ -55,9 +56,15 @@ class NetworkFragment: BaseFragment() {
     }
 
     override fun initView(): View? {
-        //super.onCreate(savedInstanceState)
-        binding = FragmentNetworkBinding.inflate(layoutInflater)
-        return binding.root
+        return View.inflate(context,R.layout.fragment_network,null)
+
+    }
+
+    override fun initListeners() {
+        super.initListeners()
+        recyclerView.layoutManager = LinearLayoutManager(context)
+        val adapter = NetworkAdapter(this,viewModel.contactList)
+        recyclerView.adapter = adapter
     }
 
     private fun sendRequestWithOkHttp(){

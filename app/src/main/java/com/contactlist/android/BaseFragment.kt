@@ -26,11 +26,11 @@ abstract class BaseFragment : Fragment(){
         initData()
     }
 
-    protected fun initData() {
+    open protected fun initData() {
 
     }
 
-    protected fun initListeners() {
+    open protected fun initListeners() {
 
     }
     /*protected fun showToast(msg: String) {
