@@ -41,7 +41,6 @@ public class MobileFragment : BaseFragment(){
         binding.morecyclerView.adapter = adapter
 
         /*viewModel.contactList.observe(this, Observer{ result ->
-
         })*/
 
     }
